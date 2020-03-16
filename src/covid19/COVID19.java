@@ -30,7 +30,7 @@ public class COVID19 {
      * who's recovered based on the current spatial positions and elapsed time
      * 
      * @param dist If an infected person is within this distance of an 
-     *             uninfected person in both the x and y coordinnte, the
+     *             uninfected person in both the x and y coordinate, the
      *             uninfected person becomes infected
      * @param xcoords An array of the x coordinates of all people
      * @param ycoords An array of the y coordinates of all people
