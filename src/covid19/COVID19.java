@@ -41,6 +41,14 @@ public class COVID19 {
     public static void updateInfections(double dist, double[] xcoords, double[] ycoords,
                                         int[] states, int[] timeSick, int recoveryTime) {
         // TODO: Fill this in
+        // Loop through the people, and apply the following rules:
+        // 1) If a person is UNINFECTED but is within "dist" in its x coordinate
+        //    and its y coordinate of an INFECTED person, their state changes to
+        //    INFECTED
+        // 2) If a person is INFECTED, add one hour to the amount of time
+        //    that they have been infected in the timeSick array.  If they
+        //    have been infected for recoveryTime amount of time, then change
+        //    their state to RECOVERED
     }
     
     /**
